@@ -31,7 +31,7 @@ public class Ejemplo04 {
         nombreEstudiante = entrada.nextLine();
 
         if (promedio >= 7.5 && promedio <= 10) { // Falso
-            System.out.printf("Estudiante: %s\naprobado con un "
+            System.out.printf("Estudiante %s aprobado con un "
                     + "promedio: %.2f\n", nombreEstudiante, promedio);
         } // -------------
     }

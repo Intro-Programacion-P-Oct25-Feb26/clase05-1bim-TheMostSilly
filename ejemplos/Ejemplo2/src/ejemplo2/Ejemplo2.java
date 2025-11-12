@@ -28,14 +28,22 @@ public class Ejemplo2 {
         entrada.useLocale(Locale.US); // 10,2 / 10.2
         double promedio;
         String miNombre;
+        int edad;
+        String ciudad;
         System.out.println("Ingrese el nombre por favor");
         miNombre = entrada.nextLine();
         System.out.println("Ingrese el promedio por favor");
         promedio = entrada.nextDouble();
+        System.out.println("Ingrese la edad por favor");
+        edad = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese el promedio por favor");
+        ciudad = entrada.nextLine();
 
         if (promedio >= 7.5) {
-            System.out.printf("Estudiante %s aprobado con un promedio: %.2f\n", 
-                    miNombre, promedio);
+            System.out.printf("Estudiante %s aprobado con un promedio: %.2f"
+                    + " con edad de %d y ciudad %s", 
+                    miNombre, promedio, edad, ciudad);
         }else{
             System.out.printf("Estudiante reprobado con un "
                     + "promedio: %.2f\n", promedio);

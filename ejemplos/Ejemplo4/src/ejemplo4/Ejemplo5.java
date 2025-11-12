@@ -24,7 +24,7 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
-        if (!ciudad.equals("Loja")) {
+        if (!ciudad.equals("Loja")) { // El ! niega toda la sentencia lógica que le precede
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
@@ -32,7 +32,7 @@ public class Ejemplo5 {
 
         int numero = 10;
 
-        if (numero != 10) {
+        if (numero != 10) { // Al igual que el caso anterior, el ! niega 
             System.out.println("correcto");
         }
 

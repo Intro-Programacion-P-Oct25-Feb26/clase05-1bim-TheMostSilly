@@ -37,7 +37,7 @@ public class Ejemplo2 {
         System.out.println("Ingrese la edad por favor");
         edad = entrada.nextInt();
         entrada.nextLine();
-        System.out.println("Ingrese el promedio por favor");
+        System.out.println("Ingrese la ciudad por favor");
         ciudad = entrada.nextLine();
 
         if (promedio >= 7.5) {
